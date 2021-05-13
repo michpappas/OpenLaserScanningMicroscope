@@ -83,10 +83,8 @@ void setup()
 	pinMode(SEL1, OUTPUT);
 	pinMode(SEL2, OUTPUT);
 	digitalWrite(OSC, HIGH); // ?
-	digitalWrite(SEL1, HIGH); // SEL1/SEL2 HIGH= UV SEL1/SEL2 LOW = OFF
-	digitalWrite(
-		SEL2,
-		HIGH); //  SEL1 HIGH / SEL2 LOW = RED, SEL1 LOW / SEL2 HIGH = IR
+	digitalWrite(SEL1, LOW); // SEL1/SEL2 HIGH= UV SEL1/SEL2 LOW = OFF
+	digitalWrite(SEL2, LOW); //  SEL1 HIGH / SEL2 LOW = RED, SEL1 LOW / SEL2 HIGH = IR
 
 	x = sizeX;
 
